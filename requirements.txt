@@ -1,0 +1,2 @@
+bottle==0.12.13
+PyAutoGUI==0.9.36

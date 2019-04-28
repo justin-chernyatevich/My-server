@@ -141,7 +141,7 @@ def check_command():
             else:
                 return 'Command: %s' % kill
         return "Command: %s" % kill
-    history.close
+    history.close()
 
 if __name__ == "__main__":
     check_dir("download", "static_files")

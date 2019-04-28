@@ -7,7 +7,7 @@ from bottle import run, get, post, request, template, \
 		   redirect, route, static_file, response, \
                    abort
 
-iid = "http://192.168.88.242:5000"
+iid = "http://0.0.0.0:5000"
 
 def check_dir(*args):
     if not args:
